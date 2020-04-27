@@ -14,7 +14,7 @@ const infininteContent = ()=> {
         $createHeading.textContent = 'More content coming soon!';
 
         $element.appendChild($createHeading);
-    }
+    
 
 		
 		const $createParagraph = document.createElement('p');
@@ -25,3 +25,6 @@ const infininteContent = ()=> {
 		
 		$element.appendChild($createParagraph);
 }
+}
+
+window.addEventListener('scroll', infininteContent)
