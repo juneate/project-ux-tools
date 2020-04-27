@@ -18,13 +18,13 @@ const infininteContent = ()=> {
         $element.appendChild($createHeading);
     
 
-		
+		//create a new paragraph
 		const $createParagraph = document.createElement('p');
 
-		
+		//add text to the paragraph
 		$createParagraph.textContent = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, quos impedit fugit velit magni quidem, qui molestiae, aliquam sequi nobis repellat null doloremque';
 
-		
+		//create the paragraph as a child of the $element section
         $element.appendChild($createParagraph);
         
 
