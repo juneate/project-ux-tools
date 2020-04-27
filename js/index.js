@@ -1,7 +1,5 @@
+
 //create an infiniteContent function 
-
-
-
 
 const infiniteContent = ()=> {
 
@@ -19,7 +17,6 @@ const infiniteContent = ()=> {
         //create the h2 as a child of the $element section
         $element.appendChild($createHeading);
     
-
 		//create a new paragraph
 		const $createParagraph = document.createElement('p');
 
@@ -39,5 +36,6 @@ const infiniteContent = ()=> {
         $element.appendChild($createImage)
 }
 }
-
+ 
+//run the event
 window.addEventListener('scroll', infiniteContent)
