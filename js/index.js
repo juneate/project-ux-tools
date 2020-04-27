@@ -26,8 +26,12 @@ const infininteContent = ()=> {
 
 		//create the paragraph as a child of the $element section
         $element.appendChild($createParagraph);
-        
 
+        const $createImage =document.createElement('img');
+        
+        $createImage.setAttribute('src','https://via.placeholder.com/1600x900');
+
+        $element.appendChild($createImage)
 }
 }
 
