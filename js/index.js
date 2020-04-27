@@ -7,7 +7,7 @@ const infiniteContent = ()=> {
     const $element = document.querySelector('#element')
 
     if ($element.getBoundingClientRect().top < window.innerHeight) {
-
+    
         //create an H2 heading
         const $createHeading = document.createElement('H2');
 
