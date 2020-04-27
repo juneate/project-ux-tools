@@ -4,7 +4,7 @@
 const $element = document.querySelector('#element')
 
 
-const infininteContent = ()=> {
+const infiniteContent = ()=> {
 
     if ($element.getBoundingClientRect().top < window.innerHeight) {
 
@@ -38,4 +38,4 @@ const infininteContent = ()=> {
 }
 }
 
-window.addEventListener('scroll', infininteContent)
+window.addEventListener('scroll', infiniteContent)
