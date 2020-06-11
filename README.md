@@ -31,6 +31,7 @@ When the user has scrolled past the article's primary heading, they may not have
 Design a way to represent the document outline and show the user their progress as they scroll through it. The user should be able to easily view the article's outline and move a desired portion of the document into the viewport at any time. This UI may can be on display at all times, or shown/hidden through the handling of an `Event`.
 
    - An example of a "srollspy" (see the "Table of Contents" panel in a desktop browser): https://create.arduino.cc/projecthub/MoritzDornseifer/iot-cloud-enabled-alarm-clock-1e5119
+   - Another "scrollspy" in the bottom left corner: https://www.kimovil.com/en/compare/apple-iphone-11-pro-max-na-256gb,oneplus-7t-pro
 
 ### C) Controlled content reveal (carousel, slides, tabbed component, etc)
 
