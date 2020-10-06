@@ -42,6 +42,7 @@ Design a component that will guide a user though content that is split into mult
 When a user reached the bottom of a document, maintain the fluidity of the experience and engagement by loading new content. More important than the loading of content (or the type of content loaded), is the UI and its impact on the UX. Place your focus on responsible engagement and ensure the user is made aware of all new content being added to the current page automatically (either upcoming, or already loading) while promoting a seamless, low-friction, ethically responsible experience. 
 
    - As an example, consider how Netflix transitions between shows or movies: The picture is shrunken to the corner while credit are rolling. An advertisement for new content is shown around it in the background. The name of the next show to be autoplayed is shown with a countdown timer and an option buttons.
+   - Example, scroll to the bottom and see how new artices are displayed (though do note the URL doesn't change, which is bad form!): https://theundefeated.com/features/the-education-of-heat-meyers-leonard/
 
 ---
 
